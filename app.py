@@ -15,7 +15,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/ads')
+@app.route('/ads.txt')
 def ads():
     return render_template('ads.txt')
 
